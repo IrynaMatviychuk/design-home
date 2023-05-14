@@ -23,3 +23,28 @@ modal.addEventListener("click", function (e) {
     closeModal();
   }
 });
+
+// Slider
+$(".slider").slick({
+    autoplay: true,
+    dots: true,
+    slidesToShow: 4,
+    responsive: [
+        {
+          breakpoint: 1920,
+          settings: {
+            autoplay: true,
+            slidesToShow: 3,
+            // dots: true,
+          }
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            autoplay: true,
+            slidesToShow: 2,
+            // dots: true,
+          }
+        }
+      ]
+  });
