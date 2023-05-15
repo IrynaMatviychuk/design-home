@@ -109,21 +109,36 @@
         </div>
 
         <div class="goods-search">
-            <!-- filters  -->
-            <ul class="filters">
-                <li><a href="">Банки для зберігання</a></li>
-                <li><a href="">Чашки</a></li>
-                <li><a href="">Тарілки</a></li>
-                <li>
-                    <ul class="filter-categories">
-                        <li><a href="">Кухонне приладдя</a></li>
-                        <li><a href="">Підставки для приборів</a></li>
-                        <li><a href="">Набори для спецій</a></li>
-                        <li><a href="">Аксесуари для кухні</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Келихи</a></li>
-            </ul>            
+            
+            <div class="categories-prices">
+              <ul class="categories">
+                  <li><a href="">Банки для зберігання</a></li>
+                  <li><a href="">Чашки</a></li>
+                  <li><a href="">Тарілки</a></li>
+                  <li>
+                      <ul class="subcategories">
+                          <li><a href="">Кухонне приладдя</a></li>
+                          <li><a href="">Підставки для приборів</a></li>
+                          <li><a href="">Набори для спецій</a></li>
+                          <li><a href="">Аксесуари для кухні</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="">Келихи</a></li>
+              </ul>     
+              <div class="prices-excel">
+                <form method="get" action="./data/prices-list.xlsx" id="download_price_list">
+                    <div id="prices_document">
+                        <img src="./images/assortment-images/excel-logo.png" alt="excel_prices">
+                        <p>Прайс-лист</p>
+                    </div>
+                </form>
+                <script>
+                    let priceFile = document.forms.download_price_list;
+                    document.getElementById('prices_document')
+                          .onclick = () => priceFile.submit();
+                </script>
+              </div>
+            </div>       
             <!-- goods -->
             <div class="goods">
                 <ul class="goods-list">
