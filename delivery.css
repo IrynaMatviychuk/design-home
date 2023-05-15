@@ -1,0 +1,117 @@
+.delivery-info {
+    display: flex;
+    justify-content: space-between;
+}
+.advantages {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.advantages_item {
+    width: 100%;
+    height: 100px;
+    padding: 20px;    
+}
+.advantages_item img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+.advantages_item h3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0;
+}
+.delivery-rules {
+    width: 730px;
+}
+.delivery-rules h2, .feedback-form h2 {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #47474748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(23, 23, 23);
+}
+.delivery-rules h3, .call-form h3 {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(23, 23, 23);
+    background-color: #47474748;
+    border-radius: 5px;
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delivery-rules p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 15px 0;
+}
+.delivery-options li {
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.delivery-options li span {
+    font-weight: bolder;
+}
+.feedback-form {
+    margin: 100px 0;
+}
+.feedback-form p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.feedback-form h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.call-form {
+    margin: auto;
+    padding-top: 30px;
+}
+.call-form h3 {
+    background: none;
+    font-size: 20px;
+}
+.number-send-btn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.telephone {
+    width: 750px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.send-btn {
+    background-color: #47474748;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bolder;
+    width: 200px;
+}
+.send-btn:hover {
+    background-color: #242424;
+    color: #fff;
+}

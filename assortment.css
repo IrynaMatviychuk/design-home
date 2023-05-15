@@ -204,9 +204,6 @@ body {
 .slider img {
     width: 100%;
 }
-/* main > .container {
-    margin: auto;
-} */
 .category-way a {
     font-size: 14px;
     font-weight: 500;
@@ -338,12 +335,11 @@ body {
 .number-of-pages a {
     text-decoration: none;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     color: black;
 }
 .number-of-pages a:hover {
-    font-size: 20px;
-    font-weight: 500;
+    font-weight: 900;
 }
 .information-about-company {
     /* width: 780px; */
