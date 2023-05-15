@@ -8,6 +8,7 @@ body {
     width: 980px;
     padding-left: 10px;
     padding-right: 10px;
+    margin: auto;
 }
 /* header */
 .shop-info {
@@ -93,7 +94,7 @@ body {
     width: 470px;
     height: 580px;
     background-color:#ffffff;;
-    margin: 280px auto;
+    margin: 180px auto;
     padding: 30px;
 }
 .form-feedback {
@@ -203,9 +204,9 @@ body {
 .slider img {
     width: 100%;
 }
-main > .container {
+/* main > .container {
     margin: auto;
-}
+} */
 .category-way a {
     font-size: 14px;
     font-weight: 500;
@@ -341,6 +342,36 @@ main > .container {
 
 footer {
     width: 100%;
-    height: 220px;
     background-color: #474747ce;
+}
+.footer-info {
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer-info p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.dev-info {
+    position: relative;
+}
+.dev-info img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -45px;
+    top: 4px;
+}
+.footer-info > p > span {
+    text-decoration: underline;
+}
+.footer-menu a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
 }
