@@ -21,7 +21,7 @@
 }
 .advantages_item h3 {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 22px;
     font-weight: bolder;
     text-align: center;
     margin: 10px 0;
@@ -58,11 +58,11 @@
 }
 .delivery-rules p {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 22px;
     margin: 15px 0;
 }
 .delivery-options li {
-    line-height: 20px;
+    line-height: 22px;
     margin-top: 20px;
     font-size: 18px;
 }
@@ -75,13 +75,13 @@
 .feedback-form p {
     margin: 20px 0;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 22px;
     text-align: center;
 }
 .feedback-form h3 {
     margin-top: 20px;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 22px;
     text-align: center;
 }
 .call-form {

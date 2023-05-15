@@ -45,32 +45,31 @@
               </div>
               <div>
                 <div class="feedback">Зворотній зв'язок</div>
-                <!-- Add modal-block -->
                 <div class="modal">
-                  <div class="modal-block">
-                    <form action="" class="form-feedback">
-                      <div class="btn-close">X</div>
-                      <h3>ЗВОРОТНІЙ ЗВ'ЯЗОК</h3>
-                      <div class="form-field">
-                        <p>Ваше ім'я *</p>
-                        <input type="text" />
-                      </div>
-                      <div class="form-field">
-                        <p>Телефон *</p>
-                        <input type="text" />
-                      </div>
-                      <div class="form-field">
-                        <p>Email *</p>
-                        <input class="form-field-email" type="text" placeholder="Поле є обов'язковим для заповнення" />
-                      </div>
-                      <div class="textarea-field">
-                        <p>Повідомлення </p>
-                        <textarea class="textarea" name="" id=""></textarea>
-                      </div>
-                      <button class="btn-send">Надіслати</button>
-                    </form>
-                  </div>
-                </div>
+    <div class="modal-block">
+        <form action="" class="form-feedback">
+            <div class="btn-close">X</div>
+            <h3>ЗВОРОТНІЙ ЗВ'ЯЗОК</h3>
+            <div class="form-field">
+                <p>Ваше прізвище та ім'я *</p>
+                <input type="text" placeholder="Матвійчук Анастасія" class="input-name" />
+            </div>
+            <div class="form-field">
+                <p>Номер телефону *</p>
+                <input type="text" placeholder="+38-097-000-00-00" class="input-phone" />
+            </div>
+            <div class="form-field">
+                <p>Email (поле є обов'язковим для заповнення)*</p>
+                <input class="form-field-email" type="text" placeholder="matviichuk@gmail.com" />
+            </div>
+            <div class="textarea-field">
+                <p>Повідомлення </p>
+                <textarea class="textarea" name="" id="" placeholder="Я б хотів(ла) отримати консультацію щодо..."></textarea>
+            </div>
+            <button class="btn-send">Надіслати</button>
+        </form>
+    </div>
+</div>
               </div>
             </div>
           </div>
@@ -102,10 +101,8 @@
             <span> > </span>
             <a href="">Кухонне приладдя</a>
         </div>
-
-        <div class="goods-search">
-            
-            <div class="categories-prices">
+        <div class="catalog">
+            <div class="leftblock">
               <ul class="categories">
                 <li><a href="">Банки для зберігання</a></li>
                 <li><a href="">Чашки</a></li>
@@ -132,9 +129,8 @@
                           .onclick = () => priceFile.submit();
                 </script>
               </div>
-            </div>       
-            <!-- goods -->
-            <div class="goods">
+            </div>      
+            <div class="centerblock">
                 <ul class="goods-list">
                     <!-- product №1 -->
                     <li>
@@ -332,5 +328,6 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
     <script src="app.js"></script>
+
   </body>
 </html>
